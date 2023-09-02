@@ -58,7 +58,7 @@ folium.raster_layers.ImageOverlay(
     show=True,
 ).add_to(m)
 st_data1 = st_folium.st_folium(m, width='100%')
-st.write('The average wind speed data presented in the map above was obtained from the NASA website. You can easily access the data from [this link](https://disc.gsfc.nasa.gov/datasets/FLDAS_NOAH01_C_GL_M_001/summary)')
+st.write('The average wind speed data presented in the map above was obtained from the NASA website. You can easily access the data from [this link](https://disc.gsfc.nasa.gov/datasets/FLDAS_NOAH01_C_GL_M_001/summary).')
 
 
 # Description Section
